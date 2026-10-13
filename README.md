@@ -1,65 +1,92 @@
-# My Portfolio Website - Overview 🚀
+# Manjeet Kumar — 3D Interactive Portfolio 🚀
 
-This repository contains the open-source version of my personal portfolio website.  
-Feel free to explore the code and use it for learning and inspiration.
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live%20Demo-6366f1?style=for-the-badge&logo=vercel)](https://github.com/PERO-99/Manjeet-Portfolio)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Three.js](https://img.shields.io/badge/Three.js-r174-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
+[![GSAP](https://img.shields.io/badge/GSAP-3-88CE02?style=for-the-badge&logo=greensock&logoColor=white)](https://gsap.com/)
+[![Vite](https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
----
-
-## ⚠️ Usage Notice
-
-This project is shared for learning purposes only.
-
-Please do NOT:
-- Clone or replicate the full website or design
-- Repost it with minor content changes
-- Use this project for commercial/client work
-- Create tutorials or content using this exact project
-
-If you use parts of the code, you must provide proper credit linking back to the original repository.
-
-Build your own version — don’t just copy.
-
-— Moncy Yohannan
+A modern, high-performance 3D interactive portfolio website designed and developed by **Manjeet Kumar** — AI & Web Developer and Computer Science Student.
 
 ---
 
-## 🛠️ Instructions
+## ✨ Features
 
-I have modified the GSAP Club plugins using trial versions.  
-⚠️ Note: Trial plugins cannot be used for production or hosting.
-
-For official GSAP Club plugins, refer here:  
-https://gsap.com/docs/v3/Installation/
-
----
-
-## ⚙️ Tech Stack
-
-React • TypeScript • GSAP • Three.js • WebGL • HTML • CSS • JavaScript
+- **🎮 3D Animated Character**: Interactive 3D avatar built with Three.js that follows mouse movement, features realistic skin and clothing shaders, and transitions dynamically across scroll states.
+- **🫧 Interactive Physics Playground**: Real-time rigid-body physics simulation using React Three Fiber and Rapier, allowing users to bump, push, and play with technology brand bubbles.
+- **📜 Smooth Scroll & Pinned Horizontal Showcase**: Seamless scrolling experience powered by GSAP ScrollTrigger and ScrollSmoother, including pinned horizontal project navigation.
+- **🔤 Kinetic Typography**: Fluid character roll animations and split-line typographic reveals using GSAP SplitText.
+- **🛡️ Secure & Optimized**: Patched against known dependency vulnerabilities, fully responsive across all device breakpoints, and optimized for fast asset loading.
 
 ---
 
-## 🎨 Assets Usage
+## 🛠️ Tech Stack
 
-Some 3D assets included in this repository are free to use for learning purposes.
-
-However:
-
-- The original 3D avatar used on my live portfolio is NOT included in this repository
-- That avatar is a custom asset created over ~1 month
-- It is not open source and not available for reuse
-
-Any usage, extraction, or redistribution of that avatar from my live website is strictly prohibited.
+| Category | Technologies |
+|---|---|
+| **Core Framework** | React 18, TypeScript, Vite |
+| **3D & Physics** | Three.js, `@react-three/fiber`, `@react-three/drei`, `@react-three/rapier` |
+| **Post-Processing** | `@react-three/postprocessing`, N8AO Ambient Occlusion |
+| **Animations** | GSAP 3, ScrollTrigger, ScrollSmoother, SplitText, `@gsap/react` |
+| **Styling** | Vanilla CSS, Geist Typography, Modern Glassmorphism |
+| **Icons** | React Icons (FontAwesome 6, Tabler Icons) |
 
 ---
 
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+## 📂 Featured Projects
+
+| # | Project | Domain | Tech Stack |
+|---|---|---|---|
+| **01** | **Dost AI** | AI Legal & Governance Platform | React, Firebase, Cloud Run, Gemini, OpenAI, Claude |
+| **02** | **AI Security Monitor** | Real-Time Security Prototype | JavaScript, AI Analytics, Threat Visualization |
+| **03** | **Gov Service Portal** | Government Service Management | HTML5, Modern CSS, Vanilla JavaScript |
+| **04** | **Carbon Emission AI** | Sustainability & Gamified Platform | React, Data Visualization, AI Game Elements |
+| **05** | **Hackathon Rapid Apps** | Multi-Domain Prototype Collection | Full-Stack, AI-Assisted Rapid Development |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) (v18 or higher) and `npm` installed.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/PERO-99/Manjeet-Portfolio.git
+   cd Manjeet-Portfolio
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Start the local development server:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+
+---
+
+## 📬 Contact & Connect
+
+- **Developer**: Manjeet Kumar
+- **Email**: [manjeetk7979@gmail.com](mailto:manjeetk7979@gmail.com)
+- **GitHub**: [@PERO-99](https://github.com/PERO-99)
+- **LinkedIn**: [Manjeet Kumar](https://linkedin.com/in/manjeet-kumar-146a67393)
 
 ---
 
 ## 📄 License
 
-This project is licensed under the Personal Portfolio License (PPL) v1.0.
-
-See the LICENSE file for full details
-
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
