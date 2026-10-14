@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
+import { FaGithub, FaLinkedinIn, FaInstagram, FaDiscord } from "react-icons/fa6";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
@@ -55,13 +55,43 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/PERO-99" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/PERO-99"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="GitHub"
+          >
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://linkedin.com/in/manjeet-kumar-146a67393" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://linkedin.com/in/manjeet-kumar-146a67393"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="LinkedIn"
+          >
             <FaLinkedinIn />
+          </a>
+        </span>
+        <span>
+          <a
+            href="https://instagram.com/manjeet_91101?vrfl=MTJmdDJ2YzBrODV1dA%3D%3D"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Instagram"
+          >
+            <FaInstagram />
+          </a>
+        </span>
+        <span>
+          <a
+            href="https://discord.com/users/pero.player_99"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Discord: pero.player_99"
+          >
+            <FaDiscord />
           </a>
         </span>
       </div>

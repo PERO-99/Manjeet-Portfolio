@@ -41,6 +41,24 @@ const Contact = () => {
             >
               Linkedin <MdArrowOutward />
             </a>
+            <a
+              href="https://instagram.com/manjeet_91101?vrfl=MTJmdDJ2YzBrODV1dA%3D%3D"
+              target="_blank"
+              data-cursor="disable"
+              rel="noopener noreferrer"
+              className="contact-social"
+            >
+              Instagram <MdArrowOutward />
+            </a>
+            <a
+              href="https://discord.com/users/pero.player_99"
+              target="_blank"
+              data-cursor="disable"
+              rel="noopener noreferrer"
+              className="contact-social"
+            >
+              Discord (pero.player_99) <MdArrowOutward />
+            </a>
           </div>
           <div className="contact-box">
             <h2>
